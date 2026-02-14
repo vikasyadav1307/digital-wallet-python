@@ -5,6 +5,8 @@ create_tables()
 
 auth = AuthService()
 
+
+
 # Try registering SAME email again
 result = auth.register("Vikas", "vikas@gmail.com", "1234")
 
